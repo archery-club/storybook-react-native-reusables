@@ -1,10 +1,15 @@
 import { StyleSheet, Text, View } from "react-native";
+import { PortalHost } from '@rn-primitives/portal';
+import './global.css';
 
 function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
+    <>
+      <View style={styles.container}>
+        <Text>Open up App.tsx to start working on your app!</Text>
+      </View>
+      <PortalHost />
+    </>
   );
 }
 
